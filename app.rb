@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   get '/' do 
     "Welcome to the Bowling Alley"
-    :erb index
+    erb :index
   end
 
 end
