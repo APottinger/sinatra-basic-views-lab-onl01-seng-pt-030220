@@ -6,7 +6,5 @@ class App < Sinatra::Base
     "Welcome to the Bowling Alley"
     :erb index
   end
-  
-  
 
 end
